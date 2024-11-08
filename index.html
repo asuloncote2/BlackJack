@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <header class="titulo">BlackJack</header>
+    <div class="row mt-2">
+        <div class="col text-center">
+            <button id="btnNuevoJuego" class="btn btn-danger">Nuevo Juego</button>
+            <button id="btnPedirCarta" class="btn btn-primary">Pedir Carta</button>
+            <button id="btnDetener" class="btn btn-primary">Detener</button>
+        </div>
+        <div class="row container">
+            <div class="col">
+                <h1>Jugador 1 - <small id="ScoreJugador"> 0</small></h1>
+                <div id="Jugador-cartas">
+                  
+                </div>
+            </div>
+        </div>
+        <div class="row container mt-2">
+            <div class="col">
+                <h1>PC - <small  id="ScoreComputadora"> 0</small></h1>
+                <div id="Compuradora-cartas">
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
